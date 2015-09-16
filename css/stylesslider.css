@@ -1,0 +1,44 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+a img{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/* HTML5 para los navegadores viejos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* fin reset */
+/*  estilos personales */
+
+#contenedor {
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.contsilde {
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

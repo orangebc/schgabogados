@@ -1,0 +1,457 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+@media only screen and (max-width: 2560px) {
+.contartrecientes {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	background-image: url(images/fondonegro2.png);
+	background-repeat: repeat;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+.contarticulo {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #FFF;
+}
+
+.contlogo {
+	height: auto;
+	width: 100%;
+	margin-top: 6%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	width: 32%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+
+
+.encarticulosrecientes {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 4em;
+	height: auto;
+	width: 90%;
+	float: left;
+	color: #FFF;
+	padding-top: 30px;
+	margin-top: 1%;
+	line-height: 1em;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.artprincipal {
+	float: left;
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.textorecientes {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 96%;
+	float: left;
+	color: #666;
+	padding-bottom: 10px;
+	padding-right: 0%;
+	text-align: justify;
+	font-weight: 300;
+	padding-top: 10px;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.encarticuloprincipal {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 96%;
+	float: left;
+	color: #FFF;
+	padding-top: 0px;
+	margin-top: 20px;
+	line-height: 1em;
+	text-align: center;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.recientes {
+	height: auto;
+	width: 96%;
+	float: left;
+	margin-bottom: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	margin-top: 20px;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.contanteriores {
+	width: 96%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #FFF;
+	float: left;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.cont1 {
+	width: 18%;
+	float: left;
+	margin-top: 30px;
+	background-image: url(images/fondonegro.png);
+	background-repeat: repeat;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 23px;
+}
+.cont2 {
+	width: 18%;
+	float: left;
+	margin-top: 30px;
+	background-image: url(images/fondonegro2.png);
+	background-repeat: repeat;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 23px;
+}
+
+.contarticulos {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	margin-bottom: 48px;
+}
+.encescritopor {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.encescritoprincipal {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.1em;
+	height: auto;
+	width: 90%;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+
+.encarticulos {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+	padding-top: 0px;
+	margin-top: 1%;
+}
+
+.texto {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-right: 0%;
+	text-align: justify;
+	font-weight: 300;
+	padding-top: 10px;
+}		
+.contleermasprincipal {
+	height: auto;
+	width: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	margin-left: 2%;
+}
+.contleermas {
+	height: auto;
+	width: 40%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+
+.leermas {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100px;
+	float: left;
+	color: #FFF;
+	padding-right: 0%;
+	text-align: justify;
+	font-weight: 300;
+}
+
+.flecha {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: 18px;
+	width: 11px;
+	float: left;
+	color: #FFF;
+	padding-right: 0%;
+	text-align: justify;
+	font-weight: 300;
+	margin-left: 5%;
+	padding-top: 2px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	bottom: 0px;
+	float: left;
+	position: relative;
+}
+}
+@media only screen and (max-width: 1680px) {
+}
+@media only screen and (max-width: 1600px) {
+.logo {
+	width: 35%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+@media only screen and (max-width: 1440px) {
+.logo {
+	width: 40%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+@media only screen and (max-width: 1366px) {
+.encarticulosrecientes {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 90%;
+	float: left;
+	color: #FFF;
+	padding-top: 30px;
+	margin-top: 1%;
+	line-height: 1em;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+.logo {
+	width: 45%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 1280px) {
+.logo {
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+@media only screen and (max-width: 1024px) {
+.logo {
+	width: 55%;
+	margin-right: auto;
+	margin-left: auto;
+}		
+}
+@media only screen and (max-width: 768px) {
+.contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top:25%;
+}	
+.logo {
+	height: auto;
+	width: 40%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}	
+.contartrecientes {
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	background-image: url(images/fondonegro2.png);
+	background-repeat: repeat;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+.contarticulo {
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #FFF;
+}
+.encarticulosrecientes {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 90%;
+	float: left;
+	color: #FFF;
+	padding-top: 30px;
+	margin-top: 1%;
+	line-height: 1em;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+}
+@media only screen and (max-width: 640px) {
+.contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 15%;
+}	
+.logo {
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}	
+.e
+}
+@media only screen and (max-width: 564px) {
+.contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5%;
+}	
+.logo {
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+}
+@media only screen and (max-width: 480px) {
+.contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.logo {
+	height: auto;
+	width: 60%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+}
+@media only screen and (max-width: 360px) {
+.contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.logo {
+	height: auto;
+	width: 85%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.encarticulosrecientes {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 2.5em;
+	height: auto;
+	width: 90%;
+	float: left;
+	color: #FFF;
+	padding-top: 30px;
+	margin-top: 1%;
+	line-height: 1em;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+
+}

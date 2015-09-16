@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#contcajaswow {
+	width: 100%px;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+}
+
+.section--caja {
+	height: 400px;
+	width: 100%;
+	float: left;
+}

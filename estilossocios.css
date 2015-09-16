@@ -1,0 +1,652 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+@media only screen and (max-width: 2560px) {
+.contprincipal {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 8%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contcurriculums {
+	float: left;
+	width: 73%;
+	margin-right: 13.5%;
+	margin-left: 13.5%;
+	margin-top: 6%;
+}
+.contequipo {
+	height: auto;
+	width: 21.7%;
+	float: left;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-left: 1%;
+}
+
+.curriculum {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 40%;
+	float: left;
+	text-align: justify;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+.fotografia {
+	float: left;
+	height: 120px;
+	width: 120px;
+	border: medium solid #000;
+	margin-top: 10px;
+}
+.encnombre {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 1.4em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 1em;
+}
+.encmail {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+}
+.encarea {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color: #FFF;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	margin-top: 5px;
+}
+
+.areasesp {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.cerrar {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 1.2em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.vercurr {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 322px;
+}
+}
+@media only screen and (max-width: 1680px) {
+.contprincipal {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 8%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contcurriculums {
+	float: left;
+	width: 82%;
+	margin-right: 9%;
+	margin-left: 9%;
+	margin-top: 6%;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 251px;
+}
+}
+@media only screen and (max-width: 1600px) {
+.contprincipal {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 8%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contcurriculums {
+	float: left;
+	width: 82%;
+	margin-right: 9%;
+	margin-left: 9%;
+	margin-top: 6%;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 200px;
+}	
+}
+@media only screen and (max-width: 1440px) {
+.contprincipal {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 8%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	
+.contcurriculums {
+	float: left;
+	width:89%;
+	margin-right: 5.5%;
+	margin-left: 5.5%;
+	margin-top: 8%;
+}
+.contequipo {
+	height: auto;
+	width: 21.7%;
+	float: left;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-left: 1%;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 157px;
+}
+}
+@media only screen and (max-width: 1366px) {
+.contprincipal {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 8%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contcurriculums {
+	float: left;
+	width:88%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 6%;
+}
+.contart {
+	float: left;
+	width: 16%;
+	padding-right: 1px;
+	padding-left: 1%;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	height: 45px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 89px;
+}
+}
+@media only screen and (max-width: 1354px) {
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	
+}
+@media only screen and (max-width: 1280px) {
+.contprincipal {
+	float: left;
+	height: 240px;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 0px;
+}
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contcurriculums {
+	float: left;
+	width:100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-top: 10%;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 170px;
+}
+}
+@media only screen and (max-width: 1024px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 10%;
+}	
+.contlogo {
+	height: 290px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 100px;
+}
+}
+@media only screen and (max-width: 768px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.contlogo {
+	height: auto;
+	width: 40%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contcurriculums {
+	float: left;
+	width: 75%;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+	margin-top: 6%;
+	margin-bottom: 14px;
+}
+.contequipo {
+	height: auto;
+	width: 47%;
+	float: left;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-left: 1%;
+	margin-top: 40px;
+}
+.curriculum {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 95%;
+	float: left;
+	text-align: justify;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 2.5%;
+	margin-top: 40px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: 2.5%;
+}
+.cerrar {
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 1.2em;
+	height: auto;
+	width: 100%;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin: 0px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 250px;
+}
+
+}
+@media only screen and (max-width: 640px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 15%;
+}	
+.contlogo {
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contcurriculums {
+	float: left;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 6%;
+	margin-bottom: 14px;
+}
+.contequipo {
+	height: auto;
+	width: 47%;
+	float: left;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-left: 1%;
+	margin-top: 40px;
+}
+.curriculum {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 95%;
+	float: left;
+	text-align: justify;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 2.5%;
+	margin-top: 40px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: 2.5%;
+}
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+}
+@media only screen and (max-width: 564px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5%;
+}	
+.contlogo {
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contenedorservicios {
+	float: left;
+	height: auto;
+	width: 34%;
+	margin-left: 16%;
+	margin-top: 0%;
+	margin-right: 0%;
+}	
+.contcurriculums {
+	float: left;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 6%;
+	margin-bottom: 14px;
+}
+}
+@media only screen and (max-width: 480px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.contlogo {
+	height: auto;
+	width: 60%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contlafirma {
+	height: auto;
+	width: 80%;
+	margin-right: 10%;
+	float: right;
+	margin-top: 6%;
+	margin-left: 10%;
+}
+.contcurriculums {
+	float: left;
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-top: 6%;
+	margin-bottom: 14px;
+}
+.contequipo {
+	height: auto;
+	width: 80%;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-right: 10%;
+}
+.curriculum {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 90%;
+	float: left;
+	text-align: justify;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5%;
+	margin-top: 40px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: 5%;
+}
+}
+@media only screen and (max-width: 360px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.contlogo {
+	height: auto;
+	width: 85%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contlafirma {
+	height: auto;
+	width: 90%;
+	margin-top: 10%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+.contcurriculums {
+	float: left;
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-top: 10%;
+	margin-bottom: 14px;
+}
+.contequipo {
+	height: auto;
+	width: 90%;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 5%;
+	margin-top: 40px;
+	margin-right: 5%;
+}
+}
+@media only screen and (max-width: 320px) {
+.contprincipal {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 25%;
+}	
+.contlogo {
+	height: auto;
+	width: 85%;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-right: auto;
+	float: none;
+}
+.contcurriculums {
+	float: left;
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-top: 20%;
+	margin-bottom: 14px;
+}
+}

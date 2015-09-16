@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	background-color: #292929;
+	margin: 0px;
+	padding: 0px;
+}
+
+@media all and (max-width: 1024px){
+	#contenedor .bloque{
+	display: inline-block !important;	/* Cuando el ancho sea inferior a 800px el elemento será un bloque */
+	width: 100% !important;
+	margin: 0px;
+	padding: 0px;
+	background-color: #369;
+	overflow: hidden;
+	height: auto;
+	}
+	#contenedor .bloque1{
+	display: inline-block !important;	/* Cuando el ancho sea inferior a 800px el elemento será un bloque */
+	width: 100% !important;
+	margin: 0px;
+	padding: 0px;
+	background-color: #CC3;
+	overflow: hidden;
+	height: auto;
+	}
+}
+#contenedor .bloque{
+	height: 400px;
+	width: 30%;
+	background: #999;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+#contenedor .bloque1{
+	height: 400px;
+	width: 70%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #CC0;
+	float: left;
+	}
+}
